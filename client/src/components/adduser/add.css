@@ -1,0 +1,81 @@
+.addUser{
+    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px 8px;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addUserform{
+    margin-top: 20px;
+}
+
+.addUserform .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addUserform .inputGroup label{
+    margin-bottom: 5px;
+
+}
+
+.addUserform .inputGroup input{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+
+}
+
+.addUserform .inputGroup button{
+    border: 0;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 1px 1px 8px;
+}
+
+.addUser h3{
+    margin-top: 5px;
+}
+
+@media(max-width:466px) {
+    .addUserform .inputGroup button {
+        border: 0;
+        outline: none;
+        background-color: purple;
+        color: white;
+        font-weight: 600;
+        padding: 10px 3px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 15px;
+        box-shadow: 1px 1px 8px;
+    }
+    
+}
+
+@media(max-width:365px) {
+    .addUserform .inputGroup button {
+        border: 0;
+        outline: none;
+        background-color: purple;
+        color: white;
+        font-weight: 500;
+        padding: 9px 1px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 15px;
+        box-shadow: 1px 1px 8px;
+    }
+    
+}
+

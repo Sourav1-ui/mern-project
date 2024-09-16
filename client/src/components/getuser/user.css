@@ -1,0 +1,116 @@
+.usertable{
+    width: 60%;
+    background-color:white;
+    box-shadow: 1px 1px 8px;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addButton{
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.usertable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse ;
+}
+
+.usertable table thead th{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+.usertable table tbody td{
+    text-align: center;
+    padding: 10px;
+}
+
+.actionButton button{
+    border: 0;
+    outline: none;
+    background-color: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.actionButton a{
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+@media (max-width:851px) {
+    .actionButton button {
+        border: 0;
+        outline: none;
+        background-color: red;
+        padding: 8px 10px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+       
+    }
+    
+}
+@media (max-width: 666px) {
+    .usertable {
+        width: 90%; 
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 8px;
+        border-radius: 5px;
+        margin: 50px auto;
+        padding: 20px; 
+        overflow-x: auto; 
+    }
+
+    .usertable table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+        background-color: white;
+    }
+
+    .usertable table th,
+    .usertable table td {
+        padding: 10px;
+        text-align: left;
+        min-width: 100px; 
+        white-space: nowrap; 
+    }
+
+    .usertable table th {
+        background-color: navy; 
+        color: white;
+        font-weight: bold;
+    }
+
+    .usertable table td {
+        word-wrap: break-word; 
+        overflow-wrap: break-word;
+    }
+
+    .usertable table td.actions {
+        min-width: 50px; 
+        text-align: center;
+    }
+}
+
+
